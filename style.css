@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+body{
+ padding-bottom: 50px;
+ background-color: black;
+}
+.html{
+ scroll-behavior: smooth;
+}
+ul{
+ list-style-type: none;
+ margin: 0%;
+ padding: 0%;
+position: sticky;
+
+}
+li a{
+ text-decoration: none;
+ float: right;
+ display: inline-flex;
+ flex-wrap: wrap;
+ justify-content: stretch;
+ padding: 12px;
+ font-size: 25px;
+ margin-top:5px ;
+ color:grey;
+
+}
+li a:hover{
+ transition: translateY(2.1);
+ color: #ff004f;
+}
+
+.logo img{
+ width: 150px;
+ height: 100px;
+}
+.picature {
+ display: flex;
+ justify-content: center;
+ align-items:flex-start;
+ margin-top: 10px;
+}
+.picature img{
+ float: right;
+ width: 500px;
+ height: 650px;
+ margin-right: 50px;
+}
+#img2{
+ width: 250px;
+}
+.picature h1{
+ font-size: 80px;
+ color: white;
+ text-align: center;
+ margin-right: 190px;
+ margin-top: 140px;
+}
+.picature span{
+ color:  #ff004f;
+ font-weight: 600;
+}
+div p{
+ color: aliceblue;
+ font-size: 22px;
+ margin-left: 5px;
+ margin-top: 5px;
+ font-family: 'Roboto', sans-serif;
+}
+.picature button{
+ color: white;
+ padding: 8px 60px 8px 60px;
+ margin-top: 20px;
+margin-left: 200px;
+font-size: larger;
+border-bottom-left-radius: 15px;
+border-top-right-radius: 15px;
+background-color: #ff004f;
+}
+.picature button:hover{
+ background-color: orangered;
+}
+/*------Aboutus-------*/
+#Aboutus h1{
+ text-align: center;
+ color: white;
+ font-size: 60px;
+ margin-right: 20px;
+}
+.about-coloumn{
+ display: flex;
+ justify-content:flex-start;
+  flex-wrap: wrap;
+   margin-top: 50px;
+}
+  .row img{
+ width:450px;
+ margin-left: 15px;
+ border-radius: 12px;
+ margin-top: 60px;
+}
+.about-coloumn h2{
+ font-size: 40px;
+ color:aliceblue;
+ text-align: center;
+ margin-left: 5px;
+ margin-bottom: 50px;
+ line-height: 6px;
+}
+.about-coloumn h6{
+ color: gray;
+ font-size: 25px;
+ text-align: center;
+ letter-spacing: 3px;
+ margin-left: 5px;
+ margin-bottom: 10px;
+ margin-top: 10px;
+}
+.about-coloumn p{
+ color: lightgrey;
+ font-size: 18px;
+ margin-left: 10px;
+ width:100%;
+ font-family: 'Roboto', sans-serif;
+ line-height:normal;
+}
+/*----------Menu----------*/
+#Menu h1{
+ text-align: center;
+ color: white;
+ font-size: 60px;
+ margin-right: 20px;
+}
+#Menu h3{
+ font-size: 45px;
+ color:#ff00f9;
+ margin-left: 120px;
+ margin-top: 10px;
+}
+.menu-container{
+ margin-top: 10px;
+}
+.menu-container img{
+ width: 270px;
+ height: 200px;
+ border-radius: 12px;
+ margin-left: 10px;
+}
+.menu-container h4{
+ font-size: 25px;
+ color:white;
+ margin-left: 18px;
+ line-height: 4px;
+}
+.menu-container p{
+ margin-left: 20px;
+}
+
+.menu-container span{
+ color: #ff0c52;
+}
+.menu-box{
+ display: flex;
+ justify-content: flex-start;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin-top: 15px;
+}
+
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+width: 1500px;
+ position: relative;
+ margin: auto;
+ margin-top: 20px;
+}
+
+/* Caption text */
+.text {
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+.active {
+ background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+ animation-name: fade;
+ animation-duration: 1.0s;
+}
+
+@keyframes fade {
+ from {opacity: .4} 
+ to {opacity: 1}
+}
+
+/*------Blog------*/
+#Blog{
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  margin-right: 20px;
+}
+.Blog-box img{
+width: 350px;
+border-radius: 12px;
+}
+.Blog-box P{
+  font-size: 15px;
+ width: 100%;
+ margin-top: 10px;
+}
+.Blog-flex{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+#img2{
+  width: 350px;
+  height: 225px;
+border-radius: 12px;
+}
+/*--------Conatct-----------*/
+footer{
+background-color: #ff004f;
+margin-left: 16px;
+border-radius: 5px;
+background-size: cover;
+}
+.footer-row{
+  display: flex;
+  justify-content: center;
+  justify-self: space-around;
+column-gap: 40px;
+}
+.footer-coloumn h5{
+  font-size: 25px;
+}
+.footer-coloumn p{
+  font-size: 20px;
+}
+.footer-coloumn p:hover{
+  color: #0fcccd;
+  transition: translateX(1.1);
+}
+.copy-right p{
+text-align: left;
+}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.social-media i{
+  font-size: 25px;
+}
+label{
+  font-size: 25px;
+}
+.social-media i:hover{
+  color: #0081ff;
+}
+label:hover{
+  color: #b700ff;
+}
+/*-------media screen--------*/
+@media screen  and (max-width:900px) {
+ .text {font-size: 11px}
+ .logo img{
+  width: 100px;
+ }
+
+li a{
+ display: none;
+}
+.header i{
+  display: block;
+}
+.picature{
+ display: flex;
+ justify-content: center;
+}
+.picature img{
+ width: 100px;
+ height: 250px;
+ margin-right: 30px;
+ margin-top: 50px;
+}
+.picature h1{
+ font-size: 40px;
+margin-left: 150px;
+}
+.picature p{
+ font-size: 15px;
+margin-left: 150px;
+}
+#Aboutus{
+  margin-top: 50px;
+}
+.row p{
+ margin-left:50px;
+}
+.row h6{
+width: 105%;
+}
+.row img{
+  width:400px;
+ margin-left: 28px;
+ border-radius: 12px;
+ margin-left: 50px;
+}
+.menu-box{
+ display: flex;
+ justify-content:flex-start;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ flex-direction:row;
+ margin-left:30px;
+}
+#Menu h3{
+font-size: 30px;
+margin-right: 100px;
+text-align: left;
+width: 100%;
+}
+.menu-box{
+ display: flex;
+ justify-content: center;
+ justify-content:space-between;
+ flex-wrap: wrap;
+ flex-direction: column;
+ margin-top: 15px;
+ margin-left: 60px;
+
+}
+.menu-container img{
+  width: 350px;
+  height: 400px;
+  border-radius: 12px;
+  margin-left: 10px;
+ }
+ .menu-container h4{
+  font-size: 30px;
+  color:white;
+  margin-left: 18px;
+  margin-top: 10px;
+  line-height: 3px;
+ }
+ .menu-container p{
+  margin-left: 20px;
+font-size: 30px;
+ }
+ .slideshow-container{
+  width: 500px;
+margin-left: 2px;
+
+
+ }
+ .fade img{
+width: 400px;
+height: 100px;
+ }
+ .dot{
+  display: none;
+ }
+ .Blog-flex{
+  display: flex;
+  justify-content: center;
+flex-direction: column;
+margin-left:80px;
+}
+.Blog-box P{
+  width: 100%;
+}
+footer{
+background-size: cover;
+width: 475px;
+}
+.footer-row{
+  display: flex;
+  justify-content: center;
+flex-wrap: wrap;
+}
+.social-media i{
+  display: inline-block;
+  font-size: 18px;
+}
+}
